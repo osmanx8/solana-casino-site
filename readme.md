@@ -1,4 +1,4 @@
-# ![7d11b6d5317798c7ebd96600371acae6 (1)](https://github.com/user-attachments/assets/3a3a84d4-630b-4c6f-b966-66d6110ddbe5) Web3 Coinflip Casino Game 🚀
+# ![7d11b6d5317798c7ebd96600371acae6 (1)](https://github.com/user-attachments/assets/3a3a84d4-630b-4c6f-b966-66d6110ddbe5) Web3 Coinflip Casino Game
 
 Welcome to our **Solana Web3 Coinflip Casino Game**! This casino game is an exciting and dynamic multiplayer betting game where players create betting room and filp coin to win big! With a sleek, responsive interface and real-time gameplay powered by cutting-edge technologies, this game offers an engaging experience for users.
 
