@@ -12,6 +12,9 @@ For inquiries, collaborations, or support, feel free to reach out:
 
 
 ## 🌟 Featurs
+
+https://github.com/user-attachments/assets/458b9a63-4b7a-457e-b3e4-020317935c21
+
 Our platform includes the following games, each meticulously crafted to captivate and entertain players:
 
 1. **Creating Room** 💎 – Users can create betting room with initial settings.
