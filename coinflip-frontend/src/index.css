@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter";
+  src: url('/public/Inter/Inter-VariableFont_opsz\,wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geo";
+  src: url('/public/geo/Geo.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 20px;
+  background-color: rgba(89, 89, 89, .1);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(200, 200, 200, .1);
+  border-radius: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove spinner arrows in Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.Inter{ 
+  font-family: 'Inter';
+}
+
+.Geo {
+  font-family: 'Geo';
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, 'Inter', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  background-color: #111827;
+  /* overflow: hidden; */
+  position: relative;
+  /* background-image: radial-gradient(circle, rgba(89, 89, 89, .1) 2px, transparent 0);
+  background-size: 15px 15px;
+  background-position: 0 0, 15px 15px;
+   */
+}
+
+.hide_scrollbar {
+  overflow: auto; /* Enable scrolling */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+}
+
+.hide_scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.coin {
+  position: relative;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.coin.flipping {
+  animation: flip 5s infinite linear; /* Increased duration and set animation to loop */
+}
+@keyframes flip {
+  0% {transform: scale(1) rotateY(0deg);}
+  50% {transform: scale(1) rotateY(1800deg);}
+  100% {transform: scale(1) rotateY(3600deg);}
+}
+
+.coin-face {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.coin-back {
+  position: absolute;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
