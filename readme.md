@@ -1,4 +1,4 @@
-# ![Coinflip Logo](https://github.com/user-attachments/assets/3a3a84d4-630b-4c6f-b966-66d6110ddbe5)  
+
 # Solana Web3 Coinflip Casino Game
 
 Welcome to the **Solana Web3 Coinflip Casino Game**, an exciting, multiplayer betting experience where players create rooms, flip coins, and win big! Featuring a sleek, responsive interface and powered by cutting-edge blockchain technology, this game delivers fast, secure, and fair gameplay for users worldwide.
