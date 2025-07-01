@@ -1,6 +1,7 @@
 
 # Solana Web3 Coinflip Casino Game
 (Let's building cool Gamefi project)
+---
 Welcome to the **Solana Web3 Coinflip Casino Game**, an exciting, multiplayer betting experience where players create rooms, flip coins, and win big! Featuring a sleek, responsive interface and powered by cutting-edge blockchain technology, this game delivers fast, secure, and fair gameplay for users worldwide.
 
 ---
