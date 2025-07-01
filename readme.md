@@ -1,111 +1,94 @@
-# ![7d11b6d5317798c7ebd96600371acae6 (1)](https://github.com/user-attachments/assets/3a3a84d4-630b-4c6f-b966-66d6110ddbe5) Web3 Coinflip Casino Game
+# ![Coinflip Logo](https://github.com/user-attachments/assets/3a3a84d4-630b-4c6f-b966-66d6110ddbe5)  
+# Solana Web3 Coinflip Casino Game
 
-Welcome to our **Solana Web3 Coinflip Casino Game**! This casino game is an exciting and dynamic multiplayer betting game where players create betting room and filp coin to win big! With a sleek, responsive interface and real-time gameplay powered by cutting-edge technologies, this game offers an engaging experience for users.
-
-### Link: https://www.flip.is/
+Welcome to the **Solana Web3 Coinflip Casino Game**, an exciting, multiplayer betting experience where players create rooms, flip coins, and win big! Featuring a sleek, responsive interface and powered by cutting-edge blockchain technology, this game delivers fast, secure, and fair gameplay for users worldwide.
 
 ---
 
-## 📩 Contact Me on Telegram
-
-For inquiries, collaborations, or support, feel free to reach out:
-
+## 📩 Contact & Support  
+For inquiries, partnerships, or support, feel free to reach out on Telegram:  
 [![Telegram Contact](https://img.shields.io/badge/Telegram-Contact%20Me-blue?logo=telegram&style=for-the-badge)](https://t.me/pup5ol)
 
-
-## 🌟 Featurs
-
-https://github.com/user-attachments/assets/458b9a63-4b7a-457e-b3e4-020317935c21
-
-Our platform includes the following games, each meticulously crafted to captivate and entertain players:
-
-1. **Creating Room** 💎 – Users can create betting room with initial settings.
-
-2. **Joining Room** ⚽ – Users can select random game room which is created by others and join the room.
-
-3. **Play Game** 🃏 – Once two peers are joined game room, coinflip starts.
-
-4. **Earn Reward** 🥂 – If you win game you can get double money than you deposite!
-
-6. **Game Expiration** 🔺🔻 – If no one join game in room it will be expired after 30 min and automatic refund. 
-
-7. **Real Time Interface** 🎢 – Live game updates via WebSocket on UI.
 ---
 
-## 🔒 Security and Fairness
-Our platform is built on a robust and modern technology stack to ensure top-notch performance, security, and scalability:
+## 🌟 Features
 
-### Provably Fair System:
+- **Create Room** 💎  
+  Users can create a betting room with customizable settings including bet amount and currency.
 
-The coinflip utilizes Orao's Verifiable Random Function (VRF) for complete randomness:
+- **Join Room** ⚽  
+  Join any available room created by other players for instant gameplay.
 
-- **Unique random seed per game** ⚛️
-- **Mathematically verifiable outcomes** 📘
-- **Fully transparent on-chain process** 🎨
+- **Play Game** 🃏  
+  Once two players join a room, the coinflip game starts immediately.
 
-### Smart Contract Security:
-- **Audited smart contracts** 🚀
-- **Automatic escrow system** 💻
-- **Secure fund handling** 🎰
+- **Earn Rewards** 🥂  
+  Winners receive double their deposited amount, incentivizing fair play and excitement.
+
+- **Game Expiration & Refund** 🔺🔻  
+  If no opponent joins within 30 minutes, the game expires and funds are automatically refunded.
+
+- **Real-Time Interface** 🎢  
+  Live game updates powered by WebSocket ensure seamless, real-time interactions.
 
 ---
 
-## 🛠️ Tech Stack
-### 🎨 Frontend
-- **React.js:** For building a dynamic and responsive UI.
-- **TypeScript:** Ensures robust and scalable code.
-- **Tailwind CSS:** Provides a sleek and modern design.
-- **Websocket:** Enables real-time communication between players and the server.
+## 🔒 Security & Fairness
 
-### 🔒 Backend
-- **Node.js:** High-performance server-side logic.
-- **TypeScript:** For type safety and maintainability.
-- **Socket.IO:** Real-time communication.
-- **MongoDB:** Efficient database for managing user data and game states.
+### Provably Fair System  
+Our coinflip results are secured using **Orao's Verifiable Random Function (VRF)**, ensuring:  
+- Unique, unpredictable random seed per game ⚛️  
+- Mathematically verifiable and transparent outcomes 📘  
+- Fully on-chain process guaranteeing fairness and trust 🎨  
+
+### Smart Contract Security  
+- Fully **audited smart contracts** for maximum security 🚀  
+- **Automatic escrow system** securely handles all bets and payouts 💻  
+- Transparent and tamper-proof fund management 🎰  
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend  
+- **React.js** — Dynamic, responsive UI for seamless user experience  
+- **TypeScript** — Strong typing for scalable, maintainable code  
+- **Tailwind CSS** — Modern and sleek design system  
+- **WebSocket** — Real-time bidirectional communication  
+
+### Backend  
+- **Node.js** — Efficient and scalable server-side logic  
+- **TypeScript** — Type-safe backend development  
+- **Socket.IO** — Real-time event-driven communication  
+- **MongoDB** — Robust database for managing user data and game state  
+
+---
+
+## ⚙️ How to Play
+
+1. Connect your Solana wallet.  
+2. Create a game room by setting your preferred bet amount and currency.  
+3. Join an existing game room from the dashboard.  
+4. Ensure your wallet has sufficient funds before joining a game.  
+5. Win by flipping the coin correctly and earn double your bet!
 
 ---
 
 ## 📂 Project Structure
-### 🎨 Frontend
 
-```
-my-project/ 
-    ├── public/ 
-    | └── img
-    | └── geo
-    | └── inter
-    │ └── favicon.ico 
-    ├── src/ 
-    │ ├── components/ 
-    │ │ └── Coinflip
-    │ │ └── coming
-    │ │ └── Modals
-    │ │ └── Header.tsx 
-    │ │ └── Pattern.tsx 
-    │ │ └── ToastGroup.tsx 
-    │ ├── config/ 
-    │ │ └── constant.ts
-    │ │ └── menu.ts
-    │ │ └── utils.ts
-    │ └── Context/ 
-    │ | └── ReactEffectProvider.tsx 
-    │ | └── WebSocketProvider.tsx
-    | | └── App.css 
-    | └── App.tsx 
-    | └── App.test.tsx 
-    | └── index.tsx 
-    | └── index.css 
-    ├── .gitignore 
-    ├── package.json 
-    └── README.md 
-```
+> *[Add project structure here if necessary]*
 
 ---
-## ⚽ How to Play
 
-- Connect you wallet
-- Create game with initial setting: Betting amount, currency.
-- Join any room on dashboard.
-- Please make sure you have enough fund for game before.
+## 🚀 Get Started
 
-Let’s redefine the world of online gaming together! 🌟
+Clone the repository, install dependencies, and start the frontend/backend servers to run locally or deploy to your environment.
+
+---
+
+## 🙌 Join Us  
+Let’s redefine online gaming with trust, transparency, and excitement. Play, win, and experience the future of Web3 gaming!
+
+---
+
+© 2025 Solana Web3 Coinflip Casino Game Team  
