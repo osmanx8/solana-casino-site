@@ -8,7 +8,7 @@ Welcome to the **Solana Web3 Coinflip Casino Game**, an exciting, multiplayer be
 
 ## 📩 Contact & Support  
 For inquiries, partnerships, or support, feel free to reach out on Telegram:  
-[![Telegram Contact](https://img.shields.io/badge/Telegram-Contact%20Me-blue?logo=telegram&style=for-the-badge)](https://t.me/ShadowRusi)
+[![Telegram Contact](https://img.shields.io/badge/Telegram-Contact%20Me-blue?logo=telegram&style=for-the-badge)](https://t.me/ShadowRusii)
 
 ---
 
